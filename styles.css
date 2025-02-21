@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'miFuente to guapa';
+    src: url('assets/fonts/Knewave-Regular.ttf');
+}
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/background.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#content {
+    width: 90vw;
+    margin: auto;
+    background-color: red;
+}
+
+.titulo_ppal {
+    font-family: 'miFuente to guapa';
+    color: #0044cc;
+    color: #04c;
+    font-size: 48px;
+    text-align: center;
+}
+
+table {
+    border: 3px solid #222;
+    width: 600px;
+    height: 400px;
+    background-color: #f4f4f4;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+thead {
+    font-weight: bold;
+    background-color: #dddddd;
+}
+
+td {
+    background-size: cover;
+    background-repeat: none;
+}
+
+td#pika {
+    background-image: url('img/pikachu.png');
+}
+
+td#charmander {
+    background-image: url('img/charmander.jfif');
+}
+
+
+form {
+    width: 500px;
+    height: auto;
+    border: 2p solid #666;
+    background-color: #fffc;
+    border-radius: 10px;
+    margin: auto;
+    padding: 2rem;
+}
+
+#enviar {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.campo {
+    display: block;
+}
+
+.campo label {
+    display: inline-block;
+    width: 6rem;
+    margin: 0.5rem 0;
+}
+
+textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 1rem;
+    resize: none;
+}
+
+
+input[type=submit],
+input[type=reset] {
+    display: block;
+    margin: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1rem;
+}
+
+input[type=reset] {
+    background-color: red;
+}
+
+
+
+
+/*
+.fondo_rosa {
+    background-color: pink;
+}
+
+.color_morado {
+    color:darkviolet;
+}
+
+.impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#primera_tabla {
+    font-size: 2rem;
+    font-family: serif;
+}
+
+
+
+td {
+    border: 3px solid red;
+}
+
+*/
